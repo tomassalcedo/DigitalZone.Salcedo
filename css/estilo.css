@@ -6,7 +6,8 @@
 
 body{
 	overflow-x: hidden;
-    background-image: url(../assets/background.jpg);
+   /* background-image: url(../assets/background.jpg); */
+   background: linear-gradient(to bottom,red,white);
 }
 
 nav{
@@ -39,14 +40,14 @@ li {
 .titulo-principal{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-      
+    transform: translateY(50px); 
 }
 
 
 .titulo-secundario{
     line-height: 1.6;
     margin-left: 200px;
+    transform: translateY(55px) ;
 }
 
 .tipo-lista{
